@@ -98,6 +98,8 @@ void displayDHTData() {
   }
 }
 
+```
+
 ### Sensor DHT (Mode 1)
 
 Menampilkan suhu dan kelembaban
@@ -147,6 +149,7 @@ void displayDHTData() {
     delay(10);
   }
 }
+```
 
 ### Sensor LDR (Mode 2)
 
@@ -195,6 +198,7 @@ void displayLDRData() {
     digitalWrite(GREEN_LED_PIN, HIGH);
   }
 }
+```
 
 ### Setting Alarm (Mode 3)
 
@@ -244,6 +248,7 @@ void setAlarm() {
     delay(2000);
   }
 }
+```
 
 ### Alarm
 
@@ -277,6 +282,7 @@ void playAlarmMelody() {
     delay(pauseBetweenNotes);
     noTone(BUZZER_PIN);
   }
+```
 
 ### Animasi OLED
 
